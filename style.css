@@ -1,0 +1,164 @@
+body{
+	background-color:deepskyblue;
+	text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+#gamearea{
+    width:700px;
+    display:block;
+    margin:auto;
+    position:relative;
+}
+#gameboard{
+    width:700px;
+}
+
+#topright{
+	float:right;
+}
+#topleft{
+	float:left;
+}
+.teaminfo{
+	width:35%;
+}
+
+.colorchoice{
+	width:50px; 
+	height:50px; 
+	background-color:purple;
+	border-radius:200px;
+	float:left;
+	margin-right:7px;
+	cursor:pointer;
+	border:2px solid black;
+	z-index:2;
+}
+.colorchoice:hover,.colorchoice:active{
+	border:2px solid white;
+}
+
+#winscreen{
+    width:700px;
+    height:350px;
+    padding:20px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin-top:-200px;
+    margin-left:-370px;
+    background-color:rgba(255, 255, 255, 0.8);
+    border:2px solid blue;
+    border-radius:100px;
+}
+#winname{
+    font-family:Righteous;
+    text-align: center;
+    color:blue;
+}
+
+.bigbutton{
+    background-color:orange;
+    color:black;
+    width:120px;
+    text-align: center;
+    padding:10px;
+    display:inline-block;
+    margin-left:10px;
+    transition:background-color 200ms;
+    transition:color 200ms;
+    cursor:pointer;
+}
+.bigbutton:hover, .bigbutton:active{
+    background-color:blue;
+    color:white;
+}
+
+#buttondiv{
+    width:330px;
+    display:block;
+    margin:auto;
+}
+
+.names{
+	color:black;
+	background-color:orange;
+	border:1px solid blue;
+	border-radius:10px;
+	font-size:30px;
+	padding-left:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:220px;
+	font-family:Righteous;
+	text-align: center;
+	margin:auto;
+	display:block;
+}
+
+#startbutton{
+	margin:auto;
+	display:block;
+	width:160px;
+	padding:5px;
+	background-color:orange;
+	color:black;
+	cursor:pointer;
+	transition:background 200ms;
+	transition:color 200ms;
+	border-radius:10px;
+}
+#startbutton:hover, #startbutton:active{
+	color:white;
+	background-color:blue;
+}
+
+.circlet{
+    width:87px;
+    height:87px;
+    border-radius:100px;
+    position:absolute;
+    top:12px;
+    z-index:-1;
+}
+.columns{
+    width:96px;
+    margin-top:65px;
+    height:580px;
+    float:left;
+}
+#columnarea{
+    position:absolute;
+    top:0;
+    width:700px;
+    height:580px;
+}
+
+.col1{
+    left:18px;
+}
+.col2{
+    left:115px;
+}
+.col3{
+    left:212px;
+}
+.col4{
+    left:308px;
+}
+.col5{
+    left:405px;
+}
+.col6{
+    left:501px;
+}
+.col7{
+    left:597px;
+}
+
+
+.orange{
+    background-color: orange;
+}
+.purple{
+    background-color:purple;
+}
