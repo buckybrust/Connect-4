@@ -155,7 +155,7 @@ function spawnPiece(col, count) {
                     winTeamString = p1Name
                     winTeamColor = team1Color
                 }
-                document.getElementById("gamearea").innerHTML += "<div id='winscreen'><h1 id='winname' style='color:" + winTeamColor + "'>" + winTeamString + " Wins!</h1><h1 style='text-align:center;'>Totals</h1><div style='float:left;width:50%'><h2 style='text-align:center;'>" + p1Name + " Total Wins</h2><h2 style='text-align:center;'>" + oWins + "</h2></div><div style='float:right;width:50%;'><h2 style='text-align:center;'>" + p2Name + " Total Wins</h2><h2 style='text-align:center;'>" + pWins + "</h2></div><div id='buttondiv'><h2 class='bigbutton' onclick='startBoard();'>Rematch</h2><h2 class='bigbutton' onclick='quitGame();'>Quit Game</h2></div></div>"
+                document.getElementById("gamearea").innerHTML += "<div id='winscreen' style='border-color:" + winTeamColor + "'><h1 id='winname' style='color:" + winTeamColor + "'>" + winTeamString + " Wins!</h1><h1 style='text-align:center;'>Totals</h1><div style='float:left;width:50%'><h2 style='text-align:center;'>" + p1Name + " Total Wins</h2><h2 style='text-align:center;'>" + oWins + "</h2></div><div style='float:right;width:50%;'><h2 style='text-align:center;'>" + p2Name + " Total Wins</h2><h2 style='text-align:center;'>" + pWins + "</h2></div><div id='buttondiv'><h2 class='bigbutton' onclick='startBoard();'>Rematch</h2><h2 class='bigbutton' onclick='quitGame();'>Quit Game</h2></div></div>"
                 //startBoard();
             }, 1000)
         }
